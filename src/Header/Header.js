@@ -1,17 +1,15 @@
 
 import React from 'react';
-import logo1 from './logo1.png';
-import logo2 from './logo2.png';
+import logo from '../logo.svg';
+import logo1 from '../logo1.svg';
 
 function Header() {
   return (
     <nav>
-      <div className="logo-left">
-        <img src={logo1} alt="Logo 1" />
-      </div>
-      <div className="logo-right">
-        <img src={logo2} alt="Logo 2" />
-      </div>
+      <div className="main">
+    <img className="logo-left" src="https://via.placeholder.com/267x97" />
+    <img className="logo-right" src="https://via.placeholder.com/267x97" />
+</div>
     </nav>
   );
 }
