@@ -14,14 +14,13 @@ code {
 
 
 .logo-left {
-  src:".logo.png";
   width: 267px; 
   height: 97px;
 }
 
 .logo-right {
-  width: 267px; 
-  height: 97px;
+  width: 150px; 
+  height: 95px;
 }
 .main {
   width: 100%;
@@ -42,8 +41,8 @@ code {
   }
   
   .logo-right {
-    width: 120px; 
-    height: 40px
+    width: 95px; 
+    height: 35px
   }
 }
 

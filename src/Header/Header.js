@@ -1,19 +1,18 @@
 
-import React from 'react';
-import logo from '../logo.svg';
-import logo1 from '../logo1.svg';
+import React, { Component } from 'react';
+import logo from '../images/logo.png';
+import logouniv from '../images/logouniv.png';
 
-
-function Header() {
-  return (
-    <nav>
-      <div className="main" >
-    <img className="logo-left" src="https://via.placeholder.com/267x97" />
-    <img className="logo-right" src="https://via.placeholder.com/267x97" />
-</div>
-    </nav>
-  );
+class Header extends Component {
+  render() {
+    return (
+      <nav>
+        <div className="main" >
+          <img className="logo-left" src={logo} alt='ensim-logo'/>
+           <img className="logo-right" src={logouniv} alt="univ-logo" />
+        </div>
+      </nav>
+    );
+  }
 }
-
-
 export default Header;
