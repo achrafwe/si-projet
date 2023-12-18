@@ -60,7 +60,7 @@
   
   .frame .group {
     height: 50px;
-    left: 142px;
+    left: 70px;
     position: absolute;
     top: 290px;
     width: 152px;
@@ -95,11 +95,11 @@
   }
   
   .frame .overlap-2 {
-    background-color: var(--color-2);
+    background-color: #DB4C3B;
     border-radius: 25px;
     height: 50px;
     position: relative;
-    width: 149px;
+    width: 150px;
   }
   
   .frame .text-wrapper-3 {
@@ -200,7 +200,27 @@
     top: 265px;
     width: 318px;
   }
-  
+
+  button {
+    cursor: pointer;
+  }
+
+  #button1 {
+    background-color: #bfbfbf;
+    border-radius: 25px;
+    height: 50px;
+    position: relative;
+    width: 150px;
+  }
+
+  #button2 {
+    background-color: #bfbfbf;
+    border-radius: 25px;
+    height: 50px;
+    position: relative;
+    width: 150px;
+  }
+
   .frame .text-wrapper-6 {
     color: #ffffff;
     font-family: "Inter", Helvetica;

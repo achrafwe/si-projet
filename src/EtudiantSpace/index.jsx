@@ -12,7 +12,20 @@ import './index.css';
 
 
 class EtudiantSpace extends Component{
-    render(){
+  changeColor(clickedButtonId) {
+    const buttons = ['button1', 'button2'];
+
+    buttons.forEach((buttonId) => {
+      const button = document.getElementById(buttonId);
+      if (buttonId === clickedButtonId) {
+        button.style.backgroundColor = '#DB4C3B';
+      } else {
+        button.style.backgroundColor = '#bfbfbf';
+      }
+    });
+  }
+
+  render(){
         return(
             <div className="frame">
             <div className="div">
@@ -50,21 +63,17 @@ class EtudiantSpace extends Component{
                 />
                 <div className="mail" >mail: madeth.may@univ-lemans.fr</div>
                 <div className="overlap-4">
-                  <Button  className="text-wrapper-6">Contactez directement</Button >
+                  <Button  className="text-wrapper-6" >Contactez directement</Button >
                 </div>
               </div>
               <div className="overlap-group">
               <img className="vector" alt="Vector" src="https://c.animaapp.com/Zzsi4ZsV/img/vector-1.png" />
-                <div className="group">
-                  <div className="div-wrapper">
+                <button className="group" id="button1" onClick={() => this.changeColor('button1')}>
                     <div className="text-wrapper-2">Etage 1</div>
-                  </div>
-                </div>
-                <div className="overlap-wrapper">
-                  <div className="overlap-2">
+                </button>
+                <button className="overlap-wrapper" id="button2" onClick={() => this.changeColor('button2')}>
                     <div className="text-wrapper-3">RDC</div>
-                  </div>
-                </div>
+                </button>
               </div>
               <div className="ellipse" />
               <div className="ellipse-2" />
