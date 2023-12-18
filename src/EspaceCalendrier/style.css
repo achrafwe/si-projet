@@ -20,11 +20,7 @@
   }
   
   .frame1 .overlap4 {
-<<<<<<< HEAD
-    background-image: url(../calendierie-2.png);
-=======
     background-image: url(../calendrier-decembre-2023_26269_15.png);
->>>>>>> f6ddca50c8f7aa3344ca5f86c3da203b8cc5d2cc
     background-position: 50% 50%;
     background-size: cover;
     height: 750px;
@@ -75,11 +71,7 @@
     width: 25%;
   }
   
-<<<<<<< HEAD
-  .frame1 .loeremloerem-mes {
-=======
   .frame1 .rendezvous-bar {
->>>>>>> f6ddca50c8f7aa3344ca5f86c3da203b8cc5d2cc
     color: #000000;
     font-family: "Inter", Helvetica;
     font-size: 24px;
