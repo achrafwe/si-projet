@@ -11,7 +11,7 @@ export const EspaceCalendrier = () => {
         <div className="ellipse-2" />
         <p className="text-wrapper">Vous avez une nouvelle demande de rendez vous</p>
         <div className="overlap-group">
-          <div className="loeremloerem-mes">Loeremloerem -&gt; Mes rendez-vous</div>
+          <div className="rendezvous-bar">Nom du Prof -&gt; Mes rendez-vous</div>
         </div>
         <div className="div-wrapper">
           <div className="text-wrapper-2">Consulter mes Rendez-vous</div>
