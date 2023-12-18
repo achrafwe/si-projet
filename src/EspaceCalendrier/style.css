@@ -1,4 +1,4 @@
-.frame {
+.frame1 {
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
@@ -6,51 +6,51 @@
     width: 100%;
   }
   
-  .frame .div {
+  .frame1 .div {
     background-color: #ffffff;
-    height: 1080px;
+    height: 100%;
     position: relative;
-    width: 1920px;
+    width: 100%;
   }
   
-  .frame .header-instance {
+  .frame1 .header-instance {
     left: 0 !important;
     position: absolute !important;
     top: 0 !important;
   }
   
-  .frame .overlap4 {
-    background-image: url(../calendierie-2.png);
+  .frame1 .overlap4 {
+    background-image: url(../calendrier-decembre-2023_26269_15.png);
     background-position: 50% 50%;
     background-size: cover;
     height: 750px;
     left: 119px;
     position: absolute;
-    top: 273px;
+    top: 100px;
     width: 1134px;
   }
   
-  .frame .ellipse {
+  .frame1 .ellipse {
     background-color: #fc0606;
     border-radius: 10px/7.5px;
     height: 15px;
     left: 765px;
     position: relative;
-    top: 195px;
+    top: 215px;
     width: 20px;
   }
   
-  .frame .ellipse-2 {
+  .frame1 .ellipse-2 {
     background-color: #fc0606;
     border-radius: 10px/7.5px;
     height: 15px;
-    left: 1275px;
+    left: 1300px;
     position: absolute;
-    top: 275px;
+    top: 300px;
     width: 20px;
   }
   
-  .frame .text-wrapper {
+  .frame1 .text-wrapper {
     color: #000000;
     font-family: "Inter-Regular", Helvetica;
     font-size: 24px;
@@ -62,40 +62,37 @@
     top: 267px;
   }
   
-  .frame .overlap-group {
+  .frame1 .overlap-group {
     background-color: #f8ab98;
     border-radius: 0px 0px 21px 0px;
-    height: 65px;
+    height: 66px;
     left: 0;
     position: absolute;
-    top: 125px;
-    width: 467px;
+    width: 25%;
   }
   
-  .frame .loeremloerem-mes {
+  .frame1 .rendezvous-bar {
     color: #000000;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 16px;
+    font-family: "Inter", Helvetica;
+    font-size: 24px;
     font-weight: 400;
-    left: 44px;
-    letter-spacing: 0;
-    line-height: normal;
+    height: 29px;
+    left: 12%;
     position: absolute;
-    top: 23px;
-    width: 273px;
+    top: 25%;
   }
   
-  .frame .div-wrapper {
+  .frame1 .div-wrapper {
     background-color: #e8f8f1;
     border-radius: 50px;
     height: 62px;
-    left: 1383px;
+    left: 1450px;
     position: absolute;
-    top: 648px;
+    top: 450px;
     width: 340px;
   }
   
-  .frame .text-wrapper-2 {
+  .frame1 .text-wrapper-2 {
     color: #000000;
     font-family: "Inter-Regular", Helvetica;
     font-size: 24px;
