@@ -9,8 +9,6 @@ import InputBase from '@mui/material/InputBase';
 import IconButton from '@mui/material/IconButton';
 import Button from '@mui/material/Button';
 import './index.css';
-
-
 class EtudiantSpace extends Component{
     render(){
         return(

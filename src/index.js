@@ -8,6 +8,7 @@ import Header from './Header/Header';
 import EtudiantSpace from './EtudiantSpace/index';
 import EspaceProf from './EspaceProf/index';
 import EspaceCalendrier from './EspaceCalendrier/index';
+import Login from './Login/index';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +19,7 @@ root.render(
       <Route path="/EtudiantSpace" component={EtudiantSpace} exact />
       <Route path="/EspaceProf" component={EspaceProf} exact />
       <Route path="/EspaceCalendrier" component={EspaceCalendrier} exact />
+      <Route path="/Login" component={Login} exact />
     </Router>
   </React.StrictMode>
 );
