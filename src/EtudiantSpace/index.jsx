@@ -26,6 +26,11 @@ class EtudiantSpace extends Component{
                 />
                 </IconButton>
               </div>
+              <img
+                className="img"
+                alt="User profile PNG"
+                src="https://c.animaapp.com/Zzsi4ZsV/img/user-profile-png-picture-1@2x.png"
+              />
                 <div className="overlap-5">
                 <div className="text-wrapper-11">Bienvenue Nom Etudiant</div>
               </div>
@@ -64,11 +69,7 @@ class EtudiantSpace extends Component{
               <div className="ellipse" />
               <div className="ellipse-2" />
               <div className="ellipse-3" />
-              <img
-                className="img"
-                alt="User profile PNG"
-                src="https://c.animaapp.com/Zzsi4ZsV/img/user-profile-png-picture-1@2x.png"
-              />
+           
               <div className="text-wrapper-7">Disponible</div>
               <div className="text-wrapper-8">Non diponible</div>
               <div className="text-wrapper-9">Non spécifié</div>

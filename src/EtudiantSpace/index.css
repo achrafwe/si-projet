@@ -44,8 +44,8 @@
     position: absolute;
     left: 700px;
     float: right;
-    top: 6px;
-    width: 62px;
+    top: 1%;
+    width: auto;
   }
   
   .frame .overlap-group {
@@ -251,7 +251,7 @@
     object-fit: cover;
     position: absolute;
     right: 0%;
-    width: 98px;
+    width: 5%;
   }
   
   .frame .text-wrapper-7 {
@@ -406,5 +406,21 @@
     left: 0;
     position: absolute;
     width: 12%;
+  }
+  .frame .img {
+    height: 55px;
+    float: right;
+    object-fit: cover;
+    position: absolute;
+    right: 0%;
+    width: 5%;
+  }
+  .frame .icon-search {
+    height: 58px;
+    position: absolute;
+    left: auto;
+    float: right;
+    top: 1%;
+    width: auto;
   }
   }
