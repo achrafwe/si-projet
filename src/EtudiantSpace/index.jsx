@@ -1,13 +1,5 @@
 import React, { Component } from 'react';
-import SearchIcon from '@mui/icons-material/Search';
-import Box from '@mui/material/Box';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import Typography from '@mui/material/Typography';
-import Paper from '@mui/material/Paper';
-import InputBase from '@mui/material/InputBase';
-import IconButton from '@mui/material/IconButton';
-import Button from '@mui/material/Button';
+import {IconButton,Button,Link} from '@mui/material';
 import './index.css';
 class EtudiantSpace extends Component{
     constructor(props) {
@@ -36,12 +28,12 @@ class EtudiantSpace extends Component{
       return (
             <div className="frame">
             <div className="div">
-            
+            <Link href="/" >
               <img
                 className="img"
                 alt="User profile PNG"
-                src="https://c.animaapp.com/Zzsi4ZsV/img/user-profile-png-picture-1@2x.png"
-              />
+                src="https://c.animaapp.com/Zzsi4ZsV/img/user-profile-png-picture-1@2x.png" 
+              /></Link>
                 <div className="overlap-5">
                 <div className="text-wrapper-11">Bienvenue Nom Etudiant</div>
               </div>

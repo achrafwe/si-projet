@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import Link from '@mui/material/Link';
 
 export const EspaceCalendrier = () => {
   return (
@@ -14,7 +15,9 @@ export const EspaceCalendrier = () => {
           <div className="rendezvous-bar">Nom du Prof -&gt; Mes rendez-vous</div>
         </div>
         <div className="div-wrapper">
+          <Link href="/EspaceProf">
           <div className="text-wrapper-2">Consulter mes Rendez-vous</div>
+          </Link>
         </div>
       </div>
     </div>

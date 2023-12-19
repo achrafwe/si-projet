@@ -8,7 +8,7 @@
   
   
   .frame .div {
-    background-color: #ffffff;
+    background-color: #D9E3F1;
     height: 100%;
     position: relative;
     width: 100%;
@@ -44,7 +44,7 @@
     position: absolute;
     left: 700px;
     float: right;
-    top: 1%;
+    top: 12px;
     width: auto;
   }
   
