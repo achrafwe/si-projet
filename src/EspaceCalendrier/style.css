@@ -7,7 +7,7 @@
   }
   
   .frame1 .div {
-    background-color: #ffffff;
+    background-color: #D9E3F1;
     height: 100%;
     position: relative;
     width: 100%;
@@ -59,7 +59,7 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 267px;
+    top: 290px;
   }
   
   .frame1 .overlap-group {
