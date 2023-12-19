@@ -29,22 +29,22 @@
     display: flex;
     color: #000000;
     font-family: "Inter", Helvetica;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 400;
     height: 29px;
-    left: 70px;
+    left: 40px;
     line-height: normal;
     position: absolute;
-    top: 20px;
+    top: 23px;
     width: 80%;
   }
   
   .frame .icon-search {
     height: 58px;
     position: absolute;
-    left: 700px;
+    left: 740px;
     float: right;
-    top: 12px;
+    top: 10px;
     width: auto;
   }
   
@@ -142,7 +142,7 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 44%;
+    top: 45%;
   }
   
   .frame .span {
@@ -187,7 +187,7 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 50%;
+    top: 45%;
     width: 444px;
   }
   
@@ -201,12 +201,16 @@
     width: 318px;
   }
 
+  icon {
+    opacity: 1;
+  }
+
   button {
     cursor: pointer;
   }
 
   #button1 {
-    background-color: #DB4C3B;
+    background-color: #bfbfbf;
     border-radius: 25px;
     height: 50px;
     position: relative;
@@ -214,7 +218,7 @@
   }
 
   #button2 {
-    background-color: #bfbfbf;
+    background-color: #DB4C3B;
     border-radius: 25px;
     height: 50px;
     position: relative;
@@ -243,6 +247,28 @@
     position: absolute;
     top: 745px;
     width: 26px;
+  }
+
+  .frame .ellipse-may {
+    background-color: #ff7034ab;
+    border-radius: 13px/11px;
+    height: 22px;
+    left: 1100px;
+    position: absolute;
+    top: 350px;
+    width: 26px;
+  }
+
+  .frame .text-may {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 1070px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 375px;
   }
   
   .frame .ellipse-2 {
@@ -315,11 +341,12 @@
     font-family: "Inter", Helvetica;
     font-size: 24px;
     font-weight: 400;
-    left: 50%;
+    text-align: center;
+    left: 1060px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 819px;
+    top: 850px;
   }
   
   .frame .header-instance {
@@ -374,8 +401,8 @@
   }
   
   .slide img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
   }
   

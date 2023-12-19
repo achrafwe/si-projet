@@ -46,10 +46,17 @@ class EtudiantSpace extends Component{
 
     buttons.forEach((buttonId) => {
       const button = document.getElementById(buttonId);
+      const ico = document.getElementById('icon-may');
       if (buttonId === clickedButtonId) {
         button.style.backgroundColor = '#DB4C3B';
       } else {
         button.style.backgroundColor = '#bfbfbf';
+      }
+      if (clickedButtonId === 'button1') {
+        ico.style.opacity = 0;
+      }
+      if (clickedButtonId === 'button2') {
+        ico.style.opacity = 1;
       }
     });
   }
@@ -87,7 +94,7 @@ class EtudiantSpace extends Component{
               <div className="overlap">
             <input
               className="text-wrapper"
-              placeholder="Je cherche ......"
+              placeholder="Recherchez ...."
               value={searchValue}
               onChange={this.handleChange}
             />
@@ -108,7 +115,7 @@ class EtudiantSpace extends Component{
                   <span className="text-wrapper-4">0244022122</span>
                 </a>
               </p>
-              <div className="text-wrapper-5">Mr.May Madeth</div>
+              <div className="text-wrapper-5">Mr. May Madeth</div>
               <img
                 className="user-profile-PNG"
                 alt="User profile PNG"
@@ -134,7 +141,9 @@ class EtudiantSpace extends Component{
               </div>
             ))}
           </div>
-
+          <icon id="icon-may">
+            <div className="ellipse-may" /><div className="text-may">May Madeth</div>
+          </icon>
             <div className="ellipse" /><div className="ellipse-2" /><div className="ellipse-3" /><div className="text-wrapper-7">Disponible</div><div className="text-wrapper-8">Non diponible</div><div className="text-wrapper-9">Non spécifié</div><div className="text-wrapper-10">Actualité</div></>
               )}
             </div>
