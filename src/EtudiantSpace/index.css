@@ -315,7 +315,7 @@
     font-family: "Inter", Helvetica;
     font-size: 24px;
     font-weight: 400;
-    left: 886px;
+    left: 50%;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
@@ -353,6 +353,36 @@
     transition: width 0.5s ease;
     outline: none;
   }
+
+
+
+  .slider-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 200px; /* Set the height of your slider */
+    bottom: 0px;
+    top: 880px
+  }
+  
+  .slide {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+  }
+  
+  .slide img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .slide.active {
+    display: block;
+  }
+  
   
   @media screen and (max-width: 991px) {
     .frame {
@@ -443,4 +473,5 @@
     top: 1%;
     width: auto;
   }
+  
   }
