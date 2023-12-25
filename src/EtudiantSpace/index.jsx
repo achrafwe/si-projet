@@ -72,6 +72,11 @@ class EtudiantSpace extends Component{
   };
 
   handleChange = (event) => {
+    /*if(event.keyCode === 13) {
+      alert("popo");
+      document.getElementById('search-button').click();        
+    }
+    alert(event.key);*/
     this.setState({ searchValue: event.target.value });
   };
   
@@ -93,12 +98,13 @@ class EtudiantSpace extends Component{
              
               <div className="overlap">
             <input
+              
               className="text-wrapper"
               placeholder="Recherchez ...."
               value={searchValue}
               onChange={this.handleChange}
             />
-            <IconButton onClick={this.handleSearch}>
+            <IconButton id="search-button" onClick={this.handleSearch}>
               <img
                 className="icon-search"
                 alt="Icon search"
